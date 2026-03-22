@@ -1,0 +1,34 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "eu.ansvar/swiss-data-protection-mcp",
+  "description": "Query FDPIC decisions, opinions, and guidance on data protection under the Swiss DSG/nDSG",
+  "repository": {
+    "url": "https://github.com/Ansvar-Systems/swiss-data-protection-mcp",
+    "source": "github"
+  },
+  "homepage": "https://ansvar.eu",
+  "version": "0.1.0",
+  "license": "Apache-2.0",
+  "keywords": [
+    "fdpic",
+    "swiss-data-protection",
+    "dsg",
+    "ndsg",
+    "switzerland",
+    "data-protection",
+    "privacy",
+    "compliance",
+    "mcp",
+    "ansvar"
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@ansvar/swiss-data-protection-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
